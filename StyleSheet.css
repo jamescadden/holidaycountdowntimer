@@ -1,0 +1,70 @@
+body, html{
+	height:100%;
+	margin:0;
+	padding: 0;
+	font-size:20px;
+	font-family:"Comic Sans MS";
+	font-weight:400;
+	line-height: 1.8em;
+    color: black;
+}
+
+.pimg1 { 
+	background-image: url("background.jpg");
+	background-position:cover;
+	opacity: 0.70;
+	background-size:cover;
+	background-repeat:no-repeat;
+	height: 100vh;
+	background-attachment:fixed;
+}
+
+.text{
+	position:absolute;
+	top:10%;
+	width:100%;
+	text-align: center;
+  	font-family: Comic Sans MS;
+	font-size:30px;
+	letter-spacing:8px;
+	text-transform:uppercase;
+}
+
+.Boxes{
+	position: absolute;
+	bottom: 5%;
+	width: 100%;
+	text-align: center;
+}
+
+#timer_value{
+	height: 50px;
+	position: absolute;
+	top: 40%; 
+	width: 100%;
+	text-align: center;
+	font-size: 50px;
+	background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.days{
+	opacity: 0.70;
+	height: 30px;
+	font-size: 20px;
+	border-radius: 10px;
+}
+
+.btn{
+	opacity: 0.70;
+	width: 80px;
+	height: 35px;
+	font-size: 20px;
+	border-top-width: 2px;
+	border-bottom-width: 2px;
+	border-left-width: 2px;
+	border-right-width: 2px;
+	padding-left: 1px;
+	padding-right: 1px;
+	border-radius: 10%;
+}
